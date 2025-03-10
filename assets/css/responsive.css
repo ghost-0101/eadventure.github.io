@@ -1,0 +1,102 @@
+/* ==========================================================================
+   1. Mobile Devices (up to 576px)
+   ========================================================================== */
+@media (max-width: 576px) {
+    .hero-title {
+        font-size: 2rem;
+    }
+    
+    .highlight-card {
+        margin-bottom: 1rem;
+    }
+
+    .hero-image{
+        display: none;
+    }
+    .section-title{
+        text-align: center;
+    }
+    .about-section{
+        padding: 2rem;
+    }
+    .experience-badge{
+        display: none !important;
+    }
+    .footer-bottom{
+        padding: 0px;
+    }
+    .copyright{
+        margin: 10px !important;
+        padding: 0PX !important;
+    }
+
+    .footer-info img{
+        display: block;
+        margin: auto;
+    }
+    .footer-top {
+        padding: 0px !important;
+    }
+    .fblock{
+        display: block;
+    }
+    .fshow{
+        display: none;
+    }
+
+
+}
+
+/* ==========================================================================
+   2. Tablets (577px - 768px)
+   ========================================================================== */
+@media (max-width: 768px) {
+    .nav-link {
+        padding: 0.5rem;
+    }
+    
+    .university-logo {
+        height: 100px;
+    }
+}
+
+/* ==========================================================================
+   3. Small Laptops (769px - 992px)
+   ========================================================================== */
+@media (max-width: 992px) {
+    .consultation-btn {
+        margin-top: 1rem;
+    }
+}
+
+/* ==========================================================================
+   4. Large Screens (993px and up)
+   ========================================================================== */
+@media (min-width: 993px) {
+    .hero-title {
+        font-size: 4rem;
+    }
+
+    .hero-subtitle {
+        font-size: 2rem;
+    }
+
+    .highlight-card, .malaysia-card, .package-card, .timeline-step, .testimonial-card, .team-card, .contact-info-card {
+        text-align: left;
+    }
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+    .hero-title {
+        font-size: 3rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.5rem;
+    }
+
+    .highlight-card, .malaysia-card, .package-card, .timeline-step, .testimonial-card, .team-card, .contact-info-card {
+        text-align: left;
+    }
+}
