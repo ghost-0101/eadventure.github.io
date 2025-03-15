@@ -200,7 +200,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Auto-advance every 5 seconds
+    // Remove or comment out this line to disable auto-advance
     setInterval(nextTestimonial, 5000);
 
     // Video Modal Handler
