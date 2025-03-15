@@ -2735,7 +2735,7 @@ html {
     font-weight: 700;
     background: var(--gradient);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    /* -webkit-text-fill-color: transparent; */
     margin-bottom: 1rem;
     line-height: 1;
 }
